@@ -31,6 +31,7 @@
   border: 1px solid #050505;
   margin-bottom: 0.5rem;
   border-radius: 2rem;
+  overflow: scroll;
 }
 
 #container div img{

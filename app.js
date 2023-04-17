@@ -30,13 +30,15 @@ class Product{
         
         let li2= document.createElement("li");
         li2.textContent=`price: ${element.price}`;
-        // let li3= document.createElement("li");
-        // li3.textContent=`description: ${element.description}`;
+        let li3= document.createElement("li");
+        li3.textContent=`description: ${element.description}`;
        
       
         divContainer.appendChild(image);
         ul.appendChild(li1);
         ul.appendChild(li2);
+        ul.appendChild(li3);
+        
         // ul.appendChild(li3);
        
       
